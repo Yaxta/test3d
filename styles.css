@@ -1,0 +1,31 @@
+body { 
+    margin: 0; 
+    padding: 40px; 
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.wrap {
+    display: flex;
+    gap: 20px;
+}
+
+#wrap-container { 
+    width: 600px; 
+    height: 400px;
+    border: 1px solid #ccc; 
+}
+#wrap-container-2d { 
+    width: 600px; 
+    height: 400px;
+    border: 1px solid #ccc; 
+}
+
+
+a { 
+    cursor: pointer;
+    font-size: 72px; 
+}
