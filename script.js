@@ -41,9 +41,9 @@ document.getElementById('button').addEventListener('click', function (e) {
     if (active) {
         targetX1 = -0.7
         targetX2 = 0.7
-        material1.color.set(0xff0000);
-        material2.color.set(0xff0000);
-        document.getElementById('circle').setAttribute('fill', '#A30000');
+        material1.color.set(0xff0000)
+        material2.color.set(0xff0000)
+        document.getElementById('circle').setAttribute('fill', '#A30000')
     } else {
         targetX1 = -2
         targetX2 = 2
@@ -55,8 +55,8 @@ document.getElementById('button').addEventListener('click', function (e) {
 
 function animate() {
     requestAnimationFrame(animate)
-    cube1.position.x += (targetX1 - cube1.position.x) * 0.05;
-    cube2.position.x += (targetX2 - cube2.position.x) * 0.05;
+    cube1.position.x += (targetX1 - cube1.position.x) * 0.05
+    cube2.position.x += (targetX2 - cube2.position.x) * 0.05
     renderer.render(scene, camera)
 }
 animate()
